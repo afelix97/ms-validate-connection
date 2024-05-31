@@ -1,6 +1,6 @@
 {
   "name": "ms_validate_connection",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Microservicio para validar alcance y conexion desde el servidor al servidor de base de datos",
   "devDependencies": {
     "@types/express": "^4.17.21",
