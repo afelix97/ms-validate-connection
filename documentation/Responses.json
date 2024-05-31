@@ -1,0 +1,77 @@
+#Response exitoso:
+{
+    "validations": [
+        {
+            "categoria": 4000,
+            "error": "",
+            "status": true
+        }
+    ],
+    "categoriesNotFound": []
+}
+#Response sin alcance a server:
+{
+    "validations": [
+        {
+            "categoria": 2190,
+            "error": "connect ECONNREFUSED 10.59.17.112:5435",
+            "status": false
+        },
+        {
+            "categoria": 4000,
+            "error": "connect ECONNREFUSED 127.0.0.1:5435",
+            "status": false
+        }
+    ],
+    "categoriesNotFound": []
+}
+#Response sin acceso a la bd, ya sea por user o pass:
+{
+    "validations": [
+        {
+            "categoria": 2190,
+            "error": "connect ECONNREFUSED 10.59.17.112:5433",
+            "status": false
+        },
+        {
+            "categoria": 4000,
+            "error": "password authentication failed for user \"syscontent\"",
+            "status": false
+        }
+    ],
+    "categoriesNotFound": []
+}
+#Response bd no encontrada en el servidor:
+{
+    "validations": [
+        {
+            "categoria": 2190,
+            "error": "connect ECONNREFUSED 10.59.17.112:5433",
+            "status": false
+        },
+        {
+            "categoria": 4000,
+            "error": "database \"content23\" does not exist",
+            "status": false
+        }
+    ],
+    "categoriesNotFound": []
+}
+#Response categoria a validar no encontrada:
+{
+    "validations": [
+        {
+            "categoria": 2190,
+            "error": "connect ECONNREFUSED 10.59.17.112:5433",
+            "status": false
+        },
+        {
+            "categoria": 4000,
+            "error": "",
+            "status": true
+        }
+    ],
+    "categoriesNotFound": [
+        2344
+    ]
+}

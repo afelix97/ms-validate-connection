@@ -1,0 +1,11 @@
+#Request
+header:
+{ 'auth-rdv' : 231644 }
+body:
+{
+    "categorias": [
+        4000,
+        2190,
+        2344
+    ]
+}

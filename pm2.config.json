@@ -1,0 +1,13 @@
+{
+    "apps": [
+      {
+        "name": "MS-VALIDATE-CONNECTION",
+        "script": "./build/index.js",
+        "instances": 1,
+        "exec_mode": "fork",
+        "watch": ["build","node_modules"],
+        "autorestart": true
+      }
+    ]
+  }
+  
