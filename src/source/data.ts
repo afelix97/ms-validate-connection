@@ -9,7 +9,7 @@ interface Properties_App {
 }
 
 // Asignar los valores del JSON a la variable que implementa la interfaz
-const PROPERTIES: Properties_App = { ...require('/sysx/nodeapps/config_msvalidateconnection.json') };
+const structure: Properties_App = { ...require('/sysx/nodeapps/config_msvalidateconnection.json') };
 
 // Exportar la variable para su uso en otros módulos
-export default PROPERTIES;
+export default structure;
