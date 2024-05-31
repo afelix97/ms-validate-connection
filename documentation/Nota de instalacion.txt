@@ -1,0 +1,10 @@
+Realizar las siguiente acciones en los Servidores: 10.28.226.221 y 10.28.226.213
+
+Descomprimir zip ms-validate-connection.zip, en la ruta: /sysx/nodeapps/
+- Dirigirse a la siguiente ruta: /sysx/nodeapps/ms-validate-connection
+- Ejecutar: npm i --legacy-peer-deps --only=production
+- Ejecutar: pm2 start pm2.config.json
+- Ejecutar: pm2 log MS-VALIDATE-CONNECTION
+- Tomar evidencia del servicio corriendo
+- Cerrar el log con CTRL + C.
+- Ejecutar: pm2 save
