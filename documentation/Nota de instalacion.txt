@@ -1,4 +1,6 @@
-Realizar las siguiente acciones en los Servidores: 10.28.226.221 y 10.28.226.213
+Instalacion de microservicio ms-validate-connection
+
+Realizar las siguiente acciones con el usuario devnode en los Servidores: 10.28.226.221 y 10.28.226.213
 
 Descomprimir zip ms-validate-connection.zip, en la ruta: /sysx/nodeapps/
 - Dirigirse a la siguiente ruta: /sysx/nodeapps/ms-validate-connection
