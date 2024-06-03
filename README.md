@@ -10,7 +10,7 @@ Microservicio para validar alcance y conexion servidor de base de datos
 **try connection** <br>
 *Tipo: POST*<br>
 *Ruta: /try-connection*<br>
-*type: MSVALIDATECONNECTION*<br>
+*type: MSVALIDCONNECT*<br>
 *Category: TRY_CONNECTION*<br>
 *Request:*
 
@@ -54,7 +54,7 @@ Microservicio para validar alcance y conexion servidor de base de datos
 **Valores como el puerto y las rutas pueden cambiar. Validar variables de ambiente en la ruta /sysx/progs/web/conf/config_msvalidateconnection.json o /sysx/nodeapps/config_msvalidateconnection.json*
 ```
 {
-    "APP_MSVALIDATECONNECTION_NAME": "MSVALIDATECONNECTION",
+    "APP_MSVALIDATECONNECTION_NAME": "MSVALIDCONNECT",
     "APP_MSVALIDATECONNECTION_IP": "127.0.0.1",
     "APP_MSVALIDATECONNECTION_PORT": 20050,
     "APP_MSVALIDATECONNECTION_PREFIX_API": "/validate-conection/api/v1",
@@ -67,7 +67,7 @@ Microservicio para validar alcance y conexion servidor de base de datos
 ```
 {
     "name": "REMEDIACIONES",
-    "type": "MSVALIDATECONNECTION",
+    "type": "MSVALIDCONNECT",
     "category": "TRY_CONNECTION",
     "rutaValidacion": "http://127.0.0.1:20027/authtoken/validateToken",
     "categorias": [
